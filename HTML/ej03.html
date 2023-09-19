@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de becas en doctorados</title>
+</head>
+<body>
+    <header>
+        <img src="user.jpg" alt="default profile picture" width="100">
+    </header>
+    <main>
+        Datos personales:
+    <div>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="apellidos" placeholder="Apellidos">
+        <input type="text" name="fNacimiento" placeholder="Fecha nacimiento">
+        
+    </div>    
+    </div>
+    Dirección:
+    <div>
+        <input type="text" name="tipoVia" placeholder="Tipo de vía">
+        <input type="text" name="nombreVia" placeholder="Nombre de la vía">
+        <input type="text" name="codigoPostal" placeholder="Código postal">
+    </div>
+    <div>    
+        <input type="text" name="ciudad" placeholder="Ciudad">
+        <input type="text" name="provincia" placeholder="Provincia">
+        <input type="text" name="pais" placeholder="País">
+    </div>
+    Contacto
+    <div>
+        <input type="text" name="telefono" placeholder="Telefono">
+        <input type="text" name="email" placeholder="Email">
+    </div>
+    Datos académicos:
+    <div>
+        <input type="text" name="notaUniversidad" placeholder="Nota media Universidad">
+        <label for="pais">Selecciona un país:</label>
+        <select id="pais" name="pais">
+            <option value="espana">España</option>
+            <option value="portugal">Portugal</option>
+            <option value="francia">Francia</option>
+            <option value="andorra">Andorra</option>
+        </select>
+    </div>
+    <br>
+    Tipo de cuenta:
+    <div>
+
+    <input type="radio" id="gratuita" name="tipoCuenta" value="gratuita">
+    <label for="gratuita">Gratuita</label><br>
+    
+    <input type="radio" id="basica" name="tipoCuenta" value="basica">
+    <label for="basica">Básica</label><br>
+    
+    
+    <input type="radio" id="premium" name="tipoCuenta" value="premium">
+    <label for="premium">Premium</label><br>
+
+    </div>
+
+    <div id="descripcionGratuita" class="descripcion">
+        <p>La cuenta gratuita permite acceso a becas a nivel nacional, consulta de expedientes y calendario.</p>
+    </div>
+    <div id="descripcionBasica" class="descripcion">
+        <p>La cuenta básica incluye un buscador avanzado de becas a nivel internacional.</p>
+    </div>
+    <div id="descripcionPremium" class="descripcion">
+        <p>La cuenta premium ofrece contacto con estudiantes de otros programas.</p>
+    </div>
+    <div>
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label for="cv">Añadir Currículum Vitae:</label>
+            <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx"> <br>
+            <input type="submit" value="Añadir">
+    </div>
+    
+    </form>
+    <div>
+        <br>
+        <br>
+        <input type="text" name="password" placeholder="Contraseña">
+        <input type="text" name="password2" placeholder="Repetir contraseña">
+    </div>
+    </main>
+    <footer>
+        <div>
+            <br>  
+             <a href="/index.html"> Volver al índice </a> 
+        </div>
+    </footer>
+</body>
+</html>

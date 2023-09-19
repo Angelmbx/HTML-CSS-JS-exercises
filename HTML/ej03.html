@@ -8,7 +8,16 @@
 <body>
     <header>
         <img src="user.jpg" alt="default profile picture" width="100">
-    </header>
+    </header><form action="/procesar.php" method="post" enctype="multipart/form-data">
+        <!-- Campo de carga de archivos para la foto de perfil -->
+        <label for="fotoPerfil">Selecciona tu Foto de Perfil:</label>
+        <input type="file" id="fotoPerfil" name="fotoPerfil" accept=".jpg, .jpeg, .png">
+        <!-- Acepta archivos con extensiones .jpg, .jpeg y .png -->
+
+        <!-- Botón de envío del formulario -->
+        <input type="submit" value="Cargar Foto de Perfil">
+    </form>
+    <br>
     <main>
         Datos personales:
     <div>
@@ -33,7 +42,7 @@
     <div>
         <input type="text" name="telefono" placeholder="Telefono">
         <input type="text" name="email" placeholder="Email">
-    </div>
+    </div> <br>
     Datos académicos:
     <div>
         <input type="text" name="notaUniversidad" placeholder="Nota media Universidad">

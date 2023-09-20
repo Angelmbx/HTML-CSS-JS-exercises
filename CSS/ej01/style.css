@@ -1,37 +1,36 @@
-#main{
-  
-}
-
-#first{
+#square {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    background-color:rgb(182, 40, 78);
 }
 
-#first > div {
+#square > div {
     width: 50px;
     height: 50px;
 }
 
-#second{
+#border {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    background-color: rgb(203, 205, 206);
 }
 
-#second > div {
+#border > div {
     border: 3px solid black;
     width: 50px;
     height: 50px;
 }
 
-#third{
+#round {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    background-color: rgba(149, 193, 238, 0.858);
 }
 
-#third > div {
+#round > div {
     border-radius: 50%;
     width: 50px;
     height: 50px;

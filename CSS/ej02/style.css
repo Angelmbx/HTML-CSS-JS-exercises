@@ -1,0 +1,46 @@
+
+td{
+    padding: 10px;
+}
+
+div{
+    margin: auto;
+}
+
+
+.square {
+    width: 50px;
+    height: 50px;
+}
+
+.border {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.round{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+td:nth-child(2) div {
+    background-color: peru;
+}
+
+td:nth-child(3) div {
+    background-color: antiquewhite;
+}
+
+td:nth-child(4) div {
+    background-color: cornflowerblue;
+}
+
+td:nth-child(5) div {
+    background-color: darkslategrey;
+}
+td:nth-child(6) div {
+    background-color: darkolivegreen;
+ }
